@@ -1,0 +1,290 @@
+* {
+  font-family: "Roboto", sans-serif;
+  /* overflow-x: hidden; */
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(14, 14, 14);
+  margin: 80px;
+}
+
+.place-heading1 {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 1380px;
+  left: 0px;
+}
+
+.place-heading1 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  font-size: 70px;
+}
+
+#visit p {
+  text-align: justify;
+}
+
+#visit h2:hover {
+  font-weight: bolder;
+}
+
+#visit p:hover {
+  background: radial-gradient(circle, rgba(235, 224, 228, 1) 0%, rgba(217, 224, 232, 1) 100%);
+}
+
+#home p {
+  text-align: justify;
+}
+
+#home p a {
+  text-decoration: none;
+}
+
+#visit img {
+  filter: brightness(0.8);
+}
+
+.place-heading2 {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 2270px;
+  left: 0px;
+}
+
+.place-heading2 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  font-size: 70px;
+}
+
+.event-heading {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 3650px;
+  left: 0px;
+}
+
+.event-heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+  font-size: 70px;
+}
+
+#event img {
+  filter: brightness(0.8);
+}
+
+#sea img {
+  filter: brightness(0.8);
+}
+
+.sunset-heading {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 3970px;
+  left: 0px;
+}
+
+.sunset-heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: rgb(4, 4, 4);
+  opacity: 0.7;
+  font-size: 70px;
+}
+
+#photodiary h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+#photodiary {
+  background: radial-gradient(circle, rgb(230, 235, 144) 0%, rgba(217, 224, 232, 1) 100%);
+}
+
+#photodiary p {
+  font-family: cursive;
+  text-align: justify;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  nav {
+    padding: 4px;
+    width: 400px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: right;
+  }
+
+  nav ul li a {
+    width: 390px;
+    font-size: 11px;
+    margin: 3px;
+  }
+
+  div img {
+    width: 200px;
+  }
+
+  #carouselExampleCaptions {
+    width: 400px;
+  }
+
+  #home div {
+    width: 300px;
+    justify-content: center;
+  }
+
+  #visit {
+    width: 390px;
+  }
+
+  #visit .place-heading1 {
+    width: 350px;
+  }
+
+  #visit .place-heading1 h3 {
+    font-size: 25px;
+  }
+
+  #visit .place-heading2 {
+    position: absolute;
+    top: 3070px;
+    width: 350px;
+  }
+
+  #visit .place-heading2 h3 {
+    font-size: 25px;
+  }
+
+  #visit .col-4 {
+    width: 390px;
+  }
+
+  #event {
+    width: 390px;
+  }
+
+  #event .event-heading h3 {
+    font-size: 25px;
+  }
+
+  #event .event-heading {
+    width: 350px;
+    position: absolute;
+    top: 4530px;
+  }
+
+  #event div container {
+    justify-content: center;
+    width: 400px;
+  }
+
+  #event .col-4 {
+    width: 390px;
+  }
+
+  #sea {
+    width: 390px;
+  }
+
+  #sea .col-4 {
+    width: 390px;
+  }
+
+  #sea .sunset-heading {
+    width: 350px;
+    position: absolute;
+    top: 5720px;
+    justify-content: center;
+  }
+
+  #sea .sunset-heading h3 {
+    font-size: 25px;
+  }
+
+  /* PHOTODIARY */
+
+  #photodiary {
+    width: 390px;
+  }
+
+  #photodiary .container {
+    width: 390px;
+  }
+
+  #photodiary .row {
+    width: 390px;
+  }
+
+  #photodiary .col-3 {
+    width: 400px;
+    margin-left: 20px;
+    justify-content: center;
+  }
+
+  #photodiary .card {
+    width: 390px;
+  }
+
+  #photodiary .card-body {
+    width: 300px;
+    height: 100px;
+  }
+
+  #photodiary .card-text {
+    text-align: justify;
+    font-size: small;
+  }
+
+  #photodiary .container {
+    width: 380px;
+  }
+
+  footer {
+    width: 400px;
+  }
+}
